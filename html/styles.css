@@ -33,7 +33,8 @@ body{
 
 .ola_text {
     margin: 12px, 0px, 0px, 0px;
-    font-size: 190%;
+    font-size: 30px;
+    font-weight: 100;
     color: white;
     margin-top: 20px;
     margin-bottom: -6;
@@ -43,13 +44,19 @@ body{
 
 .name_text {
     margin: 0;
-    font-size: 190%;
+    font-size: 30px;
+    font-weight: 100;
     color: white;
     background-color: #d19135;
     padding: 10px 10px;
     border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
     display: inline-block;
     height: 40px 
+}
+
+.vazio{
+    height: 1rem;
 }
 
 .button_fixed {
@@ -63,9 +70,10 @@ body{
     margin-top: 20px;
     margin-bottom: 0;
     height: 25px;
-    width: 100%; 
+    width: 70%; 
     display: flex; 
     align-items: center; 
     justify-content: flex-start;
     text-align: left;
+    margin-left: 27px;
 }

@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: aquamarine;
+}
+
+.containet_um {
+    margin: 0;
+    padding: 0;
+    background-color: #275A57;
+    width: 20%;
+    height: 657px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,7 +1,15 @@
+@font-face {
+    font-family: "Minecraftia";
+    src: url("Minecraftia-Regular.ttf") format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body{
     margin: 0;
     padding: 0;
     background-color: aquamarine;
+    font-family: 'Minecraftia', Times, serif;
 }
 
 .containet_um {
@@ -9,9 +17,19 @@ body{
     padding: 0;
     background-color: #275A57;
     width: 20%;
-    height: 657px;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    color: white;
+}
+
+.button_fixed {
+    background-color: #275A57;
+    font-family: 'Minecraftia', Times, serif;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer; 
 }

@@ -21,8 +21,36 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    
     color: white;
+}
+
+.foto_perfil {
+    width: 40%;
+    display: block;
+    margin: 20% 0 0 0;
+    
+}
+
+.ola_text {
+    margin: 12px, 0px, 0px, 0px;
+    font-size: 190%;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: -6;
+    margin-bottom: 0px;
+    height: 50px;
+}
+
+.name_text {
+    margin: 0;
+    font-size: 190%;
+    color: white;
+    background-color: #d19135;
+    padding: 10px 10px;
+    border-radius: 10px;
+    display: inline-block;
+    height: 50px 
 }
 
 .button_fixed {
